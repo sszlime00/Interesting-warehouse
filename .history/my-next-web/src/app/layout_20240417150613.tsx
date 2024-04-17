@@ -1,8 +1,7 @@
 import './style.css'
-import Sidebar from '@/components/Sidebar'
 
 export default async function RootLayout({
-  children
+
 }) {
 
   return (
@@ -10,8 +9,7 @@ export default async function RootLayout({
       <body>
         <div className="container">
           <div className="main">
-            <Sidebar />
-            <section className="col note-viewer">{children}</section>
+            <section className="col note-viewer">123</section>
           </div>
         </div>
       </body>

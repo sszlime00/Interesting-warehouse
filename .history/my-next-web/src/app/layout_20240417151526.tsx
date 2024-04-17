@@ -1,5 +1,5 @@
 import './style.css'
-import Sidebar from '@/components/Sidebar'
+import Sidebar from '@/component/'
 
 export default async function RootLayout({
   children
